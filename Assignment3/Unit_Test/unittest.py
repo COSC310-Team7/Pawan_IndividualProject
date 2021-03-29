@@ -1,6 +1,6 @@
 import unittest
-from Projects.Assignment3.NeuralNet_Agent.agent import *
-from Projects.Assignment3.NeuralNet_Agent.train import *
+from Pawan_IndividualProject.Assignment3.NeuralNet_Agent.agent import *
+from Pawan_IndividualProject.Assignment3.NeuralNet_Agent.train import *
 
 
 class TestTrain(unittest.TestCase):
