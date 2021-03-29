@@ -1,11 +1,6 @@
-# Projects
-Computer science 310 project repository  
+# COSC 310 - Individual Project
+Computer science 310 Individual project repository  
 ### Includes:
-* Assignment 2
-* Assignment 3
-### Team 7
-* Dylan Molloy
-* Mike Zhai
-* Omar Mourad
+* Assignment 3 (From group project)
+### Member:
 * Pawan Bilkhu
-* Solomon Ebata
