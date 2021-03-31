@@ -2,6 +2,7 @@ import unittest
 from Pawan_IndividualProject.Assignment3.NeuralNet_Agent.agent import *
 from Pawan_IndividualProject.Assignment3.NeuralNet_Agent.train import *
 
+# TODO: Updated paths to use settings module instead
 
 class TestTrain(unittest.TestCase):
     def setUp(self):

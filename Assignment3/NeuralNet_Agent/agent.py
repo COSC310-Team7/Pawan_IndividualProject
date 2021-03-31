@@ -44,17 +44,15 @@ class Agent:
         # Create a lemmatizer object
         self.lemmatizer = WordNetLemmatizer()
         # read in intents.json file
-        path = 'P:/COSC310 - Software Engineering/Projects/Projects/Assignment3/NeuralNet_Agent/'
-        file = open(path + 'intents.json')
-        self.intents = json.loads(file.read())
-        file.close()
+        # TODO: Updated paths to use settings module instead
+        path = 'P:/COSC310 - Software Engineering/Projects/IndividualProject/Pawan_IndividualProject/Assignment3/NeuralNet_Agent/'
+        with open(path + 'intents.json') as file:
+            self.intents = json.loads(file.read())
         # load in the tags, and responses from the pickle files and load the saved model
-        file = open(path + 'tags.pk1', 'rb')
-        self.tags = pickle.load(file)
-        file.close()
-        file = open(path + 'responses.pk1', 'rb')
-        self.responses = pickle.load(file)
-        file.close()
+        with open(path + 'tags.pk1', 'rb') as file:
+            self.tags = pickle.load(file)
+        with open(path + 'responses.pk1', 'rb') as file:
+            self.responses = pickle.load(file)
         self.model = load_model(path + 'chatbotmodel.h5')
         self.check = Speller(lang='en')
 
@@ -156,7 +154,7 @@ class Agent:
         while True:
             userInput = input("Enter text: ")
             correctedInput = self.spellCheck(userInput)
-            print(correctedInput)
+            # print(correctedInput)
 
             if correctedInput.lower() == 'quit':
                 break
