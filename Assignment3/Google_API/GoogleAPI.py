@@ -3,8 +3,7 @@ import json
 import requests
 import pandas as pd
 from pprint import pprint
-
-from Pawan_IndividualProject.Assignment3 import settings
+from Assignment3 import settings
 
 
 def main():
@@ -26,6 +25,8 @@ def main():
         latitude, longitude = addressLookup(gmaps, streetAddress)
         coordinates = (latitude, longitude)
         places_result = placesSearch(gmaps, searchTerm, location=coordinates)
+        with open('placesSearch.json', 'w') as jsonFile:
+            json.dump(places_result, jsonFile, indent=4, sort_keys=True)
     else:
         print("API key is not found :(")
 
