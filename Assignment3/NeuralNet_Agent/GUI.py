@@ -1,6 +1,6 @@
 # Import tkinter and agent.py
 from tkinter import *
-from Projects.Assignment3.NeuralNet_Agent.agent import *
+from Assignment3.NeuralNet_Agent.agent import *
 
 # botname specified
 bot_name = "Steven"
@@ -19,6 +19,32 @@ class ChatApplication:
         self.window = Tk()
         self._setup_main_window()
         self.agent = Agent()
+        self.addtionalhelp = False
+        self.additionalHelpRequired = ["Try testing your display with a different device. "
+                                  "Otherwise please bring your computer into the shop so we can better assist you.",
+                                  "Please bring your computer to the shop so we can better assist you.",
+                                  "Try to unplug it and replug it back in, if it still doesn't work then bring it to "
+                                  "our shop",
+                                  "We can look at your monitor at the shop and try to fix it",
+                                  "Try testing your display with a different device. "
+                                  "Otherwise please bring your computer into the shop so we can better assist you.",
+                                  "Make sure none of the wires are getting in the fans. "
+                                  "Clean the fans and the vents inside the case and that should fix your problem. "
+                                  "If the problem persists then you can bring your computer to our shop.",
+                                  "You can try running a security scan or clearing space on your hard drives. "
+                                  "Otherwise you can buy faster storage at our shop",
+                                  "If you bring it to the shop we may be able to fix it otherwise we can sell you a "
+                                  "mouse",
+                                  "For now you will not be able to use that usb slot. "
+                                  "If you bring your computer to the shop we can fix it.",
+                                  "Try checking what temperature your processor operates at. "
+                                  "Otherwise bring your computer to the shop and we'd be happy to take a look at it.",
+                                  "Try checking to see what processes are idly running in the background. "
+                                  "Try to close them. Otherwise bring your computer to the shop and we'd be happy to "
+                                  "take a "
+                                  "look at it.", "Try uninstalling the applications are reinstalling them. "
+                                                 "Otherwise bring your computer to the shop and we'd be happy to take "
+                                                 "a look at it."]
 
     def run(self):
         self.window.mainloop()
@@ -84,9 +110,11 @@ class ChatApplication:
         self.text_widget.configure(state=DISABLED)
 
         intentions = self.agent.predictResponse(msg)
-        msg2 = f"{bot_name}: {self.agent.getResponse(intentions)}\n\n"
+        botResponse = self.agent.getResponse(intentions)
+        msg2 = f"{bot_name}: {botResponse}\n\n"
         self.text_widget.configure(state=NORMAL)
         self.text_widget.insert(END, msg2)
+
         self.text_widget.configure(state=DISABLED)
 
         self.text_widget.see(END)

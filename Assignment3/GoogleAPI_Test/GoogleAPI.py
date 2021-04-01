@@ -1,12 +1,12 @@
 import googlemaps
 import json
-import requests
-import pandas as pd
 from pprint import pprint
 from Assignment3 import settings
 
 
-def main():
+# TODO: change the import path as it is slightly different on Windows as MAC OS
+
+def main(streetAddress):
     credentials = settings.joinpath(settings.CREDENTIALS, 'credentials.txt')
     # print(credentials)
 
@@ -20,7 +20,7 @@ def main():
     if API_KEY is not None:
         gmaps = googlemaps.Client(key=API_KEY)
         # streetAddress = "1234 SomeStreet St SomeCity SomeProvince F6F 6F6"
-        streetAddress = "260 Franklyn Rd Kelowna BC V1X 8C!"
+        # streetAddress = "260 Franklyn Rd Kelowna BC V1X 8C!"
         searchTerm = "computer repair store"
         latitude, longitude = addressLookup(gmaps, streetAddress)
         coordinates = (latitude, longitude)
@@ -29,8 +29,22 @@ def main():
             json.dump(places_result, jsonFile, indent=4, sort_keys=True)
     else:
         print("API key is not found :(")
-
     pass
+
+
+# Test function to parse the saved JSON retrieved by placesSearch
+def searchResults():
+    path = settings.joinpath(settings.GOOGLE_API_PATH, 'placesSearch.json')
+    with open(path) as jsonFile:
+        searchedLocations = json.load(jsonFile)
+    for businesses in searchedLocations["results"]:
+        name = businesses["name"]
+        address = businesses["formatted_address"]
+        rating = businesses["rating"]
+        print("---- ", name, " ----")
+        print("Address: ", address)
+        print("Rating: ", rating)
+        print()
 
 
 def test():
@@ -113,4 +127,5 @@ def addressLookup(client, streetAddress):
 
 if __name__ == '__main__':
     # test()
-    main()
+    # main()
+    searchResults()
