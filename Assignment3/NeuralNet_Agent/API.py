@@ -23,7 +23,7 @@ class googleApi:
     def addressLookup(self, client, streetAddress):
         geocode_result = client.geocode(streetAddress)
         # pprint(f'gecode response: {geocode_result}')
-        # print(geocode_result[0]['geometry']['location'])
+        print(geocode_result[0]['geometry']['location'])
         location = geocode_result[0]['geometry']['location']
         return location['lat'], location['lng']
 
@@ -47,9 +47,8 @@ class googleApi:
 
 def main():
     gsearch = googleApi()
-    streetAddress = "260 Franklyn Rd Kelowna BC V1X 8C!"
+    streetAddress = "2020 Tantalus Court Kamloops BC V1X 8C1"
     gsearch.shopSearch(streetAddress)
-    gsearch.searchResults()
 
 
 if __name__ == '__main__':
