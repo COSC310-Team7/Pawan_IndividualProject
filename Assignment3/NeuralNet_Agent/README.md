@@ -21,6 +21,7 @@ When using the Neural Net, it gets some input from the user, converts the input 
   > ```pip install numpy```  
   > ```pip install pickle```  
   > ```pip install -U spacy```  
+  > ```pip install -U googlemaps```
   > ```python -m spacy download en_core_web_sm```
 * In python terminal enter
   > ```import nltk```  
@@ -89,10 +90,12 @@ The google API class is located in the API.py file. This class makes use of the 
 
 ## List of Files
 * **agent.py** *Runs the conversation agent program and takes in inputs to speak to it*
+* **API.py** *Controls the use of Geocoding and Places API*
 * **unittest.py** *Runs a unit test on the Agent class*
 * **train.py** *Compiles the data from the intents.json*
 * **playground.py** *Test file for visualizing functionality of POS tagging and synonym recognition*
 * **intents.json** *Database that stores tags, corresponding patterns, corresponding responses*
+* **placesSearch.json** *Stores data about locations that are found near a queried address*
 * **tags.pk1** *Stores the character stream of tags to be reconstructed later for the agent script*
 * **responses.pk1** *Stores the character stream of responses to be reconstructed later for the agent script*
 * **chatbotmodel.h5** *Trains the tags to have higher probabilities for certain words that consistently appear in its patterns and stores this information as a hierarchical data structure*
