@@ -1,6 +1,6 @@
 # Import tkinter and agent.py
 from tkinter import *
-from Assignment3.NeuralNet_Agent.agent import *
+from Pawan_IndividualProject.Assignment3.NeuralNet_Agent.agent import *
 
 # botname specified
 bot_name = "Steven"
@@ -19,7 +19,7 @@ class ChatApplication:
         self.window = Tk()
         self._setup_main_window()
         self.agent = Agent()
-        self.additionalHelpPrompt = 0
+        self.case = 0
         self.noMoreOptions = ["Try testing your display with a different device. "
                               "Otherwise please bring your computer into the shop so we can better assist you.",
                               "Please bring your computer to the shop so we can better assist you.",
@@ -98,18 +98,34 @@ class ChatApplication:
     def _on_enter_pressed(self, event):
         msg = self.msg_entry.get()
         self._insert_message(msg, "You")
-        if self.additionalHelpPrompt == 0:
+        # print(self.case)
+
+        if self.case == 0:
             self._bot_response(msg)
-        elif self.additionalHelpPrompt == 1:
+
+        elif self.case == 1:
             self._need_help(msg)
-        elif self.additionalHelpPrompt == 3:
-            botResponse = "Please format your address in the following form: 1234 SomeStreet St SomeCity SomeProvince " \
-                          "F6F 6F6 "
-            self.additionalHelpPrompt = 4
+
+        elif self.case == 2:
+            api = googleApi()
+            api.shopSearch(msg)
+            botResponse = "Hear are some shops in your area:\n\n"
+            path = settings.joinpath(settings.NEURAL_NET_AGENT_PATH, "placesSearch.json")
+            with open(path) as jsonFile:
+                searchedLocations = json.load(jsonFile)
+            for shop in searchedLocations['results']:
+                name = shop["name"]
+                address = shop["formatted_address"]
+                rating = shop["rating"]
+                if rating == 5:
+                    botResponse = botResponse + "---- " + str(name) + " ----\n"
+                    botResponse = botResponse + "Address: " + str(address) + "\n"
+                    botResponse = botResponse + "Rating: " + str(rating) + "\n"
+
             self._insert_message(botResponse, bot_name)
-        elif self.additionalHelpPrompt == 4:
-            botResponse = "Yay"
+            botResponse = "Is there anything else I can assist you with?"
             self._insert_message(botResponse, bot_name)
+            self.case = 0
 
     def _insert_message(self, msg, sender):
         if not msg:
@@ -120,21 +136,29 @@ class ChatApplication:
         self.text_widget.configure(state=NORMAL)
         self.text_widget.insert(END, msg1)
         self.text_widget.configure(state=DISABLED)
+        self.text_widget.see(END)
 
     def _bot_response(self, userInput):
         intentions = self.agent.predictResponse(userInput)
         botResponse = self.agent.getResponse(intentions)
-        self._insert_message(botResponse, bot_name)
+
         if botResponse in self.noMoreOptions:
-            botResponse = "Would you like me to find computer shops near you? (Y/N)"
+            botResponse = botResponse + " Would you like me to find computer shops near you? (Y/N)"
             self._insert_message(botResponse, bot_name)
-            self.addtionalHelpPrompt = 1
+            self.case = 1
+        else:
+            self._insert_message(botResponse, bot_name)
 
     def _need_help(self, userInput):
         if userInput.lower() in ["y", "yes"]:
-            self.addtionalHelpPrompt = 3
+            botResponse = "Please format your address in the following form: 1234 SomeStreet St SomeCity SomeProvince " \
+                          "F6F 6F6"
+            self._insert_message(botResponse, bot_name)
+            self.case = 2
         else:
-            self.addtionalHelpPrompt = 0
+            botResponse = "Is there anything else I can help you with?"
+            self._insert_message(botResponse, bot_name)
+            self.case = 0
 
 
 if __name__ == "__main__":

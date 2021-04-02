@@ -1,7 +1,7 @@
 import googlemaps
 import json
 from pprint import pprint
-from Assignment3 import settings
+from Pawan_IndividualProject.Assignment3 import settings
 
 
 class googleApi:
@@ -43,18 +43,6 @@ class googleApi:
             print("API key is not found :(")
         pass
 
-    def searchResults(self):
-        path = settings.joinpath(settings.GOOGLE_API_PATH, 'placesSearch.json')
-        with open(path) as jsonFile:
-            searchedLocations = json.load(jsonFile)
-        for businesses in searchedLocations["results"]:
-            name = businesses["name"]
-            address = businesses["formatted_address"]
-            rating = businesses["rating"]
-            print("---- ", name, " ----")
-            print("Address: ", address)
-            print("Rating: ", rating)
-            print()
 
 
 def main():

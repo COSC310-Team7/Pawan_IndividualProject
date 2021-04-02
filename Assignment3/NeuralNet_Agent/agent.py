@@ -18,9 +18,9 @@ from tensorflow.keras.models import load_model
 # Autocorrect -> spell check
 from autocorrect import Speller
 
-from Assignment3 import settings
+from Pawan_IndividualProject.Assignment3 import settings
 
-from Assignment3.NeuralNet_Agent.API import *
+from Pawan_IndividualProject.Assignment3.NeuralNet_Agent.API import *
 
 class Agent:
     """

@@ -1,7 +1,7 @@
 import googlemaps
 import json
 from pprint import pprint
-from Assignment3 import settings
+from Pawan_IndividualProject.Assignment3 import settings
 
 
 # TODO: change the import path as it is slightly different on Windows as MAC OS
