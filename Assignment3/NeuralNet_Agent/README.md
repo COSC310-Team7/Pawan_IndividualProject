@@ -63,6 +63,7 @@ The ChatApplication class is located in the app.py file. This class has the foll
 * Attributes:
   * ```window (object): A window object that holds the user interface.```
   * ```agent (object): An object that references the agent class as an object.```
+  * ```cases (object): Helps the bot navigate the special case to find a local computer repair shop```
 * Methods:
   * ```run(): runs the chatbot in the GUI window mainloop.```
   * ```_setup_main_window(): A function of the window object that provides a title, window size and other features.```
@@ -76,9 +77,9 @@ The google API class is located in the API.py file. This class makes use of the 
 * Attributes:
   * ```credentials (object): Contains the necessary API key to enable usage of the two APIs```
 * Methods:
-  * ```placesSearch(): takes in a google maps client, searchterm and keyword argument and passes the search term and client to the Places API and returns and saves a JSON of bussinesses or locations that are near the area and matched the search terms.```
-  * ```addressLookup(): takes in a string address of the form: 1234 SomeStreet St SomeCity SomeProvince F6F 6F6 and passes it to the Geocode API that returns the longitude and latitude of that address.```
-  * ```shopSearch(): takes in a street address and the search term 'computer repair' and searches for shops that match that description near the specified location. It makes use of both placesSearch() and addressLookup()```
+  * ```placesSearch(): takes in a google maps client, search term and keyword argument. It passes the search term and client to the Places API, and then returns a JSON (this JSON is saved to a text file for easier access) of locations that are near the area that matched the parameters givent to it.```
+  * ```addressLookup(): takes in a string address of the form: 1234 SomeStreet St SomeCity SomeProvince F6F 6F6 and passes it to the Geocode API. Then a JSON of information including the longitude and latitude for that address is returned.```
+  * ```shopSearch(): takes in a street address and the search term 'computer repair' and searches for shops that match that description near the specified location. It makes use of both placesSearch() and addressLookup().```
 
 ## Compile training data for the chatbot
 * Compile train.py (Only have to do this once, unless changes are made to the intents.json)
@@ -113,6 +114,7 @@ The google API class is located in the API.py file. This class makes use of the 
 * spacy
 * autocorrect
 * unittest
+* googlemaps
 
 ## List of features
 Each features that will be mentioned below will include a rationale as to why it has been chosen and a snippet of the feature in action.
@@ -145,5 +147,5 @@ Spell checking was implemented through the Autocorrect package. The implementati
 ![Autocorrect](images/SpellCheck_part2.PNG)
 
 ### Geocode and Places API
-The Geocode API takes a user specified address and determines the longitude and latitude coordinates of the address. Then the Places API can find locations that match the search results and are near the coordinates provided by the Goecoding API and this information is saved to a JSON and filtered by rating.
+The Geocode API accepts a user specified address through the GUI.py. It then determines the longitude and latitude coordinates of that address. Next the Places API can find locations that match the search terms and are near the coordinates provided by the Goecoding API. This information is saved to a JSON, then parsed by GUI.py, filtered by rating and returned in a readable format for the user.
 ![Autocorrect](images/GoogleAPIs.PNG)
