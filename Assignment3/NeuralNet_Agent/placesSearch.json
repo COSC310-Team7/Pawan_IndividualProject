@@ -1,0 +1,931 @@
+{
+    "html_attributions": [],
+    "next_page_token": "ATtYBwLXC3O6q2RV-JVChhlLgTTuM1-E-oivMEwxVjmN-vv6gAhWlSvO9-D34PLju7xr21Ia08Z0RWrQUxHDsAazFV6fpHesuqPqz-Q8gm-GoXMnRy5e7ll2qeb50odqpwP5NAILyNoDbevfyTCCFTIhgVFUutGIpDF35g6JFa7VE8r19CHSz1ZjjDtGPrPZttLUvsnjW3RzJftKUjfpCHqq-U7RwPmad-rPIS-0PKXKE27ilCc2iTqr_NqStrra4XVek3ABWL7dyYWuxFQ9TM730db0MJwT9sZ-cPlL2gzBkc95vJT6X1rnyhxlUQFcdAg9_eW24U-tBxSBeJmXYhH5k6p3MBhHyBocKrG4Z5TTKAKSyh_2eWlGFyWSIBQu42086cH3Mko7_JDxe9nKMyCAgqc9L_M2G-qMAjhNdlZQ0Z86Dy2HSwMA2qV3wYG9oldlhuL6qgR19zrF5PCbPw",
+    "results": [
+        {
+            "business_status": "OPERATIONAL",
+            "formatted_address": "450 Lansdowne St #209, Kamloops, BC V2C 1Y3, Canada",
+            "geometry": {
+                "location": {
+                    "lat": 50.6770208,
+                    "lng": -120.3291165
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 50.67827727989272,
+                        "lng": -120.3277672701073
+                    },
+                    "southwest": {
+                        "lat": 50.67557762010728,
+                        "lng": -120.3304669298928
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+            "name": "Spitfire Computers Ltd.",
+            "opening_hours": {
+                "open_now": false
+            },
+            "place_id": "ChIJz7Pyz6otflMRTl_NMQVHQvM",
+            "plus_code": {
+                "compound_code": "MMGC+R9 Kamloops, British Columbia",
+                "global_code": "942XMMGC+R9"
+            },
+            "rating": 4.8,
+            "reference": "ChIJz7Pyz6otflMRTl_NMQVHQvM",
+            "types": [
+                "electronics_store",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 33
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "formatted_address": "Sahali Mall, 945 Columbia St W, Kamloops, BC V2C 1L5, Canada",
+            "geometry": {
+                "location": {
+                    "lat": 50.668465,
+                    "lng": -120.35154
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 50.66982257989272,
+                        "lng": -120.3504190701073
+                    },
+                    "southwest": {
+                        "lat": 50.66712292010727,
+                        "lng": -120.3531187298927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+            "name": "Simply Computing (Kamloops)",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 480,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/103232148013309575944\">Simply Computing</a>"
+                    ],
+                    "photo_reference": "ATtYBwIEGEADFj1lk2EtBN9SWbNNXomFhqTIRVUUdMn69Mkc2MRP0Z8nPuIMWBfHFnSlOsVVeIU8J4RDA7iJDVKB6wBDg9__M3vSfVSn2dcWDO8yKhRkMDh7M3rPBCDr9C1kYUc328fcW2kwcLhUKLcxkdyhpOIhqJEfIyIR7hdBS0sYbV-x",
+                    "width": 640
+                }
+            ],
+            "place_id": "ChIJkxx-QVksflMRvb4h4-5QAfk",
+            "plus_code": {
+                "compound_code": "MJ9X+99 Kamloops, British Columbia",
+                "global_code": "942XMJ9X+99"
+            },
+            "rating": 3.6,
+            "reference": "ChIJkxx-QVksflMRvb4h4-5QAfk",
+            "types": [
+                "electronics_store",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 138
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "formatted_address": "1390 Hillside Dr Suite #3, Kamloops, BC V2E 0A6, Canada",
+            "geometry": {
+                "location": {
+                    "lat": 50.6549779,
+                    "lng": -120.3764548
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 50.65616082989272,
+                        "lng": -120.3751270701073
+                    },
+                    "southwest": {
+                        "lat": 50.65346117010728,
+                        "lng": -120.3778267298927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+            "name": "Josto Computers",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 1704,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/102931868771131060646\">Josto Computers Kamloops</a>"
+                    ],
+                    "photo_reference": "ATtYBwKR84MUjeZFS3pYP8dWnYcxWOYNN64hpxRUh6SsjPDiv8qUasp2VhQXB2EWFJJAtWKhvOzH874AHxeF0x3DCHaOSAQWqD4k34XbIQsvNiM6cMwLUwdIG5zCQ-cuHI8mPFtpWlbyZgps3b7vQWDtCjBaWy0iuup26NvYXhmng3dqQb1d",
+                    "width": 2272
+                }
+            ],
+            "place_id": "ChIJnTDPl3AsflMRaG0_MfA9iwY",
+            "plus_code": {
+                "compound_code": "MJ3F+XC Kamloops, British Columbia",
+                "global_code": "942XMJ3F+XC"
+            },
+            "rating": 4.5,
+            "reference": "ChIJnTDPl3AsflMRaG0_MfA9iwY",
+            "types": [
+                "electronics_store",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 45
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "formatted_address": "945 Notre Dame Dr, Kamloops, BC V2C 5N9, Canada",
+            "geometry": {
+                "location": {
+                    "lat": 50.663102,
+                    "lng": -120.3662139
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 50.66460912989272,
+                        "lng": -120.3648694201073
+                    },
+                    "southwest": {
+                        "lat": 50.66190947010728,
+                        "lng": -120.3675690798927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+            "name": "Kamloops Computer Centre",
+            "opening_hours": {
+                "open_now": false
+            },
+            "place_id": "ChIJyRN9xmYsflMR-vwID2XG2lE",
+            "plus_code": {
+                "compound_code": "MJ7M+6G Kamloops, British Columbia",
+                "global_code": "942XMJ7M+6G"
+            },
+            "rating": 4,
+            "reference": "ChIJyRN9xmYsflMR-vwID2XG2lE",
+            "types": [
+                "electronics_store",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 72
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "formatted_address": "1210 Summit Dr #902, Kamloops, BC V2C 6M1, Canada",
+            "geometry": {
+                "location": {
+                    "lat": 50.6649707,
+                    "lng": -120.3526016
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 50.66631817989272,
+                        "lng": -120.3513264701073
+                    },
+                    "southwest": {
+                        "lat": 50.66361852010728,
+                        "lng": -120.3540261298927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "name": "Kamloops Phone Depot",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 2988,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/105317111608132453324\">Kamloops PHONE DEPOT</a>"
+                    ],
+                    "photo_reference": "ATtYBwJEIjHrubNSOp97eOKL2tvd2ICN2_1QVQBqmlnoaRy5fP2eCZN8r1LzcDsJ-7ZcGnbQEagGNHhQl2wO4VX9soyEq54s0FgxtoeEV8uENLy4tZlYtsQP36lGllUdxEkAlNgOmSlwbnp2FmWhDPvQ4zJSWZ5fxccvQ1pKMhoJukWyiGzz",
+                    "width": 5312
+                }
+            ],
+            "place_id": "ChIJocJ4YlwsflMRBgl46GhTR0E",
+            "plus_code": {
+                "compound_code": "MJ7W+XX Kamloops, British Columbia",
+                "global_code": "942XMJ7W+XX"
+            },
+            "rating": 4.7,
+            "reference": "ChIJocJ4YlwsflMRBgl46GhTR0E",
+            "types": [
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 292
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "formatted_address": "665 Tranquille Rd Suite 7, Kamloops, BC V2B 3H7, Canada",
+            "geometry": {
+                "location": {
+                    "lat": 50.6961491,
+                    "lng": -120.3611758
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 50.69746602989272,
+                        "lng": -120.3597282701073
+                    },
+                    "southwest": {
+                        "lat": 50.69476637010728,
+                        "lng": -120.3624279298927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "name": "PC Doctor",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 2592,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/100147704368477247768\">PC Doctor</a>"
+                    ],
+                    "photo_reference": "ATtYBwL4QXSyJ7I0PjfKrTH8YlMv9UItCHjMFXJ8c7Hc0ob3ZSelRApNXcAIU7c16GHdMDPI2vizhh8QiuzrKjqc9MBCst8Osnn3EDmxngyO3GXqdh6w6Pz5IGPczm1qjPRZE21XPLdt12rZhqQIMmUyCftmYmp70gLn3esiln9N2MD2XMLE",
+                    "width": 1936
+                }
+            ],
+            "place_id": "ChIJ54BgDOEsflMR8FAfn-h-mT8",
+            "plus_code": {
+                "compound_code": "MJWQ+FG Kamloops, British Columbia",
+                "global_code": "942XMJWQ+FG"
+            },
+            "rating": 4.8,
+            "reference": "ChIJ54BgDOEsflMR8FAfn-h-mT8",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 33
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "formatted_address": "160-945 Columbia St W, Kamloops, BC V2C 1L5, Canada",
+            "geometry": {
+                "location": {
+                    "lat": 50.668608,
+                    "lng": -120.351276
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 50.66998962989272,
+                        "lng": -120.3502538201073
+                    },
+                    "southwest": {
+                        "lat": 50.66728997010728,
+                        "lng": -120.3529534798927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "name": "INKY'S QUALITY INK & TONER",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 1536,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/110527666611510370229\">A Google User</a>"
+                    ],
+                    "photo_reference": "ATtYBwJVQ0cyUWY5G56t30lFnGXsMRdiHKXiufPKSEmCUia9lTqe9ujcBKFW7pqQ7bIP2BP26qSKI6IW3szDdlzxrDYlgRozbL4_JLezpoGSeTjxG5y9sgdVl2gt96rrT5ZVoeLuOiElc9BabYomaKwgmnE73WmgQ4R6sbKGzBMIASAdcbJV",
+                    "width": 2048
+                }
+            ],
+            "place_id": "ChIJ43U-gFksflMRDUh1hoVq2bc",
+            "plus_code": {
+                "compound_code": "MJ9X+CF Kamloops, British Columbia",
+                "global_code": "942XMJ9X+CF"
+            },
+            "rating": 2.7,
+            "reference": "ChIJ43U-gFksflMRDUh1hoVq2bc",
+            "types": [
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 7
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "formatted_address": "1320 West, Trans-Canada Hwy Unit Y700, Kamloops, BC V1S 1J2, Canada",
+            "geometry": {
+                "location": {
+                    "lat": 50.6544163,
+                    "lng": -120.3726202
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 50.65619042989272,
+                        "lng": -120.3709922201073
+                    },
+                    "southwest": {
+                        "lat": 50.65349077010728,
+                        "lng": -120.3736918798927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "name": "Geek Squad",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 251,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/100396199789770913790\">A Google User</a>"
+                    ],
+                    "photo_reference": "ATtYBwIhblfhVmZh0ua0c-3iNn-2ZZSmoT_PbI37kDMWwhTQBa2J95z8FQRbWgr8t0p-gmC9Tfi1wYiPETOtM-BXjRfhfIVUEBMxBN1J--7j80B82AZKwkRbRw3isvOyixF2ywddbLkH9RuSbGTT7HJcGtsCiUWoXDRmHYd-saMrBL5n7GQO",
+                    "width": 251
+                }
+            ],
+            "place_id": "ChIJl81RWwctflMRAqMBfQMoQA0",
+            "plus_code": {
+                "compound_code": "MJ3G+QX Kamloops, British Columbia",
+                "global_code": "942XMJ3G+QX"
+            },
+            "rating": 2.6,
+            "reference": "ChIJl81RWwctflMRAqMBfQMoQA0",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 7
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "formatted_address": "1320 Trans-Canada Hwy Unit 244, Kamloops, BC V1S 1J2, Canada",
+            "geometry": {
+                "location": {
+                    "lat": 50.65506999999999,
+                    "lng": -120.37182
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 50.65651727989273,
+                        "lng": -120.3707139701073
+                    },
+                    "southwest": {
+                        "lat": 50.65381762010728,
+                        "lng": -120.3734136298928
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+            "name": "The Source",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/102925056233675801106\">Alex Passini</a>"
+                    ],
+                    "photo_reference": "ATtYBwK09vn6PBAwpIXzmZwIge9ZbBhKRnP_ffybgjZ2lDrGf9ML6MT3bW4x935ghURMIygVAE4YF5GZbHX-FRyUCh8NqJhQAYO-y07VmpkZhAvwspVYH89KB6VKUcMMivs9kAnV3xshOJIPL7327e4ibALkZvsjcYvXhOlEclEr-7zA5OIt",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJ4_dDtXEsflMROxXKlbKwyjQ",
+            "plus_code": {
+                "compound_code": "MJ4H+27 Kamloops, British Columbia",
+                "global_code": "942XMJ4H+27"
+            },
+            "rating": 4.3,
+            "reference": "ChIJ4_dDtXEsflMROxXKlbKwyjQ",
+            "types": [
+                "electronics_store",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 88
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "formatted_address": "700 Tranquille Rd Unit 34, Kamloops, BC V2B 3H9, Canada",
+            "geometry": {
+                "location": {
+                    "lat": 50.697017,
+                    "lng": -120.359481
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 50.69826997989271,
+                        "lng": -120.35877675
+                    },
+                    "southwest": {
+                        "lat": 50.69557032010727,
+                        "lng": -120.36159375
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+            "name": "The Source",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 2160,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/116046515635159673440\">Darin Huston</a>"
+                    ],
+                    "photo_reference": "ATtYBwKxP2Y86jAaGFiROaJqgsQV4o-WYZebACIPiJBJbjLp9lGSOI5YxkLbnXChtR44Qg-_1M7Y-1cTvGSifoItkTNPL-5vtqSXhKdZrITTVHlxOhmTWp5LXtYPUHS5EUhRJpNOTsMttIK5kO5BTdrBSSxiIBsnz311ysb7vwo3gwzLH1ky",
+                    "width": 3840
+                }
+            ],
+            "place_id": "ChIJm3HSYt8sflMR1i4Y7-S-BjI",
+            "plus_code": {
+                "compound_code": "MJWR+R6 Kamloops, British Columbia",
+                "global_code": "942XMJWR+R6"
+            },
+            "rating": 4.1,
+            "reference": "ChIJm3HSYt8sflMR1i4Y7-S-BjI",
+            "types": [
+                "electronics_store",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 99
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "formatted_address": "1320 West, Trans-Canada Hwy Unit Y700, Kamloops, BC V1S 1J2, Canada",
+            "geometry": {
+                "location": {
+                    "lat": 50.6545054,
+                    "lng": -120.3726258
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 50.65620652989272,
+                        "lng": -120.3711009701073
+                    },
+                    "southwest": {
+                        "lat": 50.65350687010728,
+                        "lng": -120.3738006298928
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+            "name": "Best Buy",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 1920,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/114719323337160238379\">A Google User</a>"
+                    ],
+                    "photo_reference": "ATtYBwL6q2X7Df8ClmXSQw9Hy8J39My9yhz841cHRg-A9BuX76uRUXF5SjIbqltoALS1LOuCG0gBU_hOL9DJO3-zpQS85WY1uRC44FpyDL8bZUzgnujq94oug4e85v_U6K3pmddwOdLo4imGpGmiBQ7J8RD-z4rhqh0JiHCGGhSN9XUJtDvo",
+                    "width": 1080
+                }
+            ],
+            "place_id": "ChIJETgapnEsflMRs36156OzeZw",
+            "plus_code": {
+                "compound_code": "MJ3G+RW Kamloops, British Columbia",
+                "global_code": "942XMJ3G+RW"
+            },
+            "price_level": 2,
+            "rating": 3.7,
+            "reference": "ChIJETgapnEsflMRs36156OzeZw",
+            "types": [
+                "electronics_store",
+                "home_goods_store",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 645
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "formatted_address": "3875 Tranquille Rd, Kamloops, BC V2B 7W1, Canada",
+            "geometry": {
+                "location": {
+                    "lat": 50.720115,
+                    "lng": -120.4806844
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 50.72149507989273,
+                        "lng": -120.4792899201073
+                    },
+                    "southwest": {
+                        "lat": 50.71879542010728,
+                        "lng": -120.4819895798927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "name": "No Nonsense Computer Repairs",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 746,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/114210285868503340017\">A Google User</a>"
+                    ],
+                    "photo_reference": "ATtYBwKFk4ZTAyu1zEArVQuHhy9wJ0H-rn-PJfwgHAUIBlQ_8RJe3O_C8jz1Czh1tIFhYVkYr7A4nsRJyYWc5xvtohPwywKvwwCtHVwrDa5bRGv16QIP1Ofe-gD1j8TKI-QepuHgfoNZnrsLc-f7dzfRXQk2McpFrUFVe5qRpHNXRURpZbpy",
+                    "width": 1369
+                }
+            ],
+            "place_id": "ChIJb8xsBTjVf1MRmTCumPasBso",
+            "plus_code": {
+                "compound_code": "PGC9+2P Kamloops, British Columbia",
+                "global_code": "942XPGC9+2P"
+            },
+            "rating": 5,
+            "reference": "ChIJb8xsBTjVf1MRmTCumPasBso",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 5
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "formatted_address": "1395 Hillside Dr Unit 10, Kamloops, BC V2E 2R7, Canada",
+            "geometry": {
+                "location": {
+                    "lat": 50.6536708,
+                    "lng": -120.3776833
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 50.65512897989272,
+                        "lng": -120.3763932701073
+                    },
+                    "southwest": {
+                        "lat": 50.65242932010728,
+                        "lng": -120.3790929298927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+            "name": "Staples",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 1920,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/112450228178626891248\">Colin O&#39;Fee</a>"
+                    ],
+                    "photo_reference": "ATtYBwLR9vOEMv2cA598wDstZBMer0RV9c6-W4TBqHtA_1vO80yc6YoPLZuIg-Eg1eMI7zBQum4Yem12XYRj2yUylYoXxfbIFR6X7yVACFCWrf5b1G_S2IqxwSLITwO74u4cR_rWSO-YoqrYe2DlL73U36KdgGFq7ttuxv0wGYRqmhzAzgdS",
+                    "width": 1080
+                }
+            ],
+            "place_id": "ChIJMVChk3AsflMRjOt0ljnTI5Q",
+            "plus_code": {
+                "compound_code": "MJ3C+FW Kamloops, British Columbia",
+                "global_code": "942XMJ3C+FW"
+            },
+            "price_level": 2,
+            "rating": 3.9,
+            "reference": "ChIJMVChk3AsflMRjOt0ljnTI5Q",
+            "types": [
+                "electronics_store",
+                "furniture_store",
+                "home_goods_store",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 248
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "formatted_address": "823 Sudbury Ave, Kamloops, BC V2B 1Z8, Canada",
+            "geometry": {
+                "location": {
+                    "lat": 50.70692829999999,
+                    "lng": -120.3651882
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 50.70837372989272,
+                        "lng": -120.3638550201073
+                    },
+                    "southwest": {
+                        "lat": 50.70567407010728,
+                        "lng": -120.3665546798927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "name": "BCCAN Technology",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 360,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/114556307533526108096\">A Google User</a>"
+                    ],
+                    "photo_reference": "ATtYBwK_2UB9pB_cvia6aXw886Lq81MI2spArjcQ_twB3gjcOhcchTORvC7hZr5_XaSSRtQNoXhzImeJ-zU0EyjrnHK4NFKrePqJvgW-ZaQn6gfT8sVs6i_0A7TXdcMANmVXWFhq-5PM_pYw-WSprHQc3txFvz_r_lBtP5uH_GpYhHeZv96M",
+                    "width": 820
+                }
+            ],
+            "place_id": "ChIJOYn62ygtflMR9pMqeNfRHR4",
+            "plus_code": {
+                "compound_code": "PJ4M+QW Kamloops, British Columbia",
+                "global_code": "942XPJ4M+QW"
+            },
+            "rating": 5,
+            "reference": "ChIJOYn62ygtflMR9pMqeNfRHR4",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 2
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "formatted_address": "235 1 Ave #1000, Kamloops, BC V2C 3J4, Canada",
+            "geometry": {
+                "location": {
+                    "lat": 50.6760497,
+                    "lng": -120.3386524
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 50.67740897989272,
+                        "lng": -120.3374777701073
+                    },
+                    "southwest": {
+                        "lat": 50.67470932010728,
+                        "lng": -120.3401774298927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "name": "Adroit Technologies Ltd.",
+            "opening_hours": {
+                "open_now": false
+            },
+            "place_id": "ChIJw8rdFXosflMR1HlUwzA6mls",
+            "plus_code": {
+                "compound_code": "MMG6+CG Kamloops, British Columbia",
+                "global_code": "942XMMG6+CG"
+            },
+            "rating": 4.7,
+            "reference": "ChIJw8rdFXosflMR1HlUwzA6mls",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 20
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "formatted_address": "1139 12th St, Kamloops, BC V2B 7Z2, Canada",
+            "geometry": {
+                "location": {
+                    "lat": 50.7062177,
+                    "lng": -120.3728996
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 50.70766047989272,
+                        "lng": -120.3715481201073
+                    },
+                    "southwest": {
+                        "lat": 50.70496082010727,
+                        "lng": -120.3742477798927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "name": "Geeks Go",
+            "place_id": "ChIJvb6DPNYsflMR0PcDWG1xyJU",
+            "plus_code": {
+                "compound_code": "PJ4G+FR Kamloops, British Columbia",
+                "global_code": "942XPJ4G+FR"
+            },
+            "rating": 5,
+            "reference": "ChIJvb6DPNYsflMR0PcDWG1xyJU",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "formatted_address": "1980 Cooper Rd #102, Kelowna, BC V1Y 8K5, Canada",
+            "geometry": {
+                "location": {
+                    "lat": 49.8779687,
+                    "lng": -119.4438471
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 49.87928572989272,
+                        "lng": -119.4426830701073
+                    },
+                    "southwest": {
+                        "lat": 49.87658607010727,
+                        "lng": -119.4453827298928
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+            "name": "National Computer Resource - Computer Retail & Repair Shop",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 2448,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/107629479665417256955\">National Computer Resource</a>"
+                    ],
+                    "photo_reference": "ATtYBwKlJBSQxfA2xmr5LAULI_bsKZr0bsYy4E4geXp8_FR5962-OQtEWUCUOKG1i_5nw8BuCh_LZYjzi2CrDI8BOx9gtM6nMxG-A_YBeIojTJ1SonLIU8N8whtg_Pbp-Oosm8o4hoPGD69IBuosCSFF5HPlXh43_lqGUvhLiu9svImGMgZm",
+                    "width": 3264
+                }
+            ],
+            "place_id": "ChIJb7dxI7iMfVMRbTn44JwsJbU",
+            "plus_code": {
+                "compound_code": "VHH4+5F Kelowna, British Columbia",
+                "global_code": "85X2VHH4+5F"
+            },
+            "rating": 4.7,
+            "reference": "ChIJb7dxI7iMfVMRbTn44JwsJbU",
+            "types": [
+                "electronics_store",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 110
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "formatted_address": "#383, Kamloops, BC V2C 1K5, Canada",
+            "geometry": {
+                "location": {
+                    "lat": 50.67311369999999,
+                    "lng": -120.3469766
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 50.67446352989272,
+                        "lng": -120.3456267701072
+                    },
+                    "southwest": {
+                        "lat": 50.67176387010727,
+                        "lng": -120.3483264298927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "name": "Bade Consulting & Tech Services",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 760,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/107452228474793503610\">A Google User</a>"
+                    ],
+                    "photo_reference": "ATtYBwKHVENfGda8CuXuGDPJcR_5iNnxFWY87k7tpn2YKwKeXh3m1t6EG6a2RVaHYYlW_rdOlzDvarxzU87DpkIBK1fKluDkkcgSXINt_lnF_QdF_WV6GdqwJDEHfGaVGW6m0w3e2S_Vy46nkVn9-BBhbZ58i4ckyFvjlxesDiQYbCPRVWG3",
+                    "width": 1004
+                }
+            ],
+            "place_id": "ChIJqeZ0ne0tflMRa3G01jUtRKo",
+            "plus_code": {
+                "compound_code": "MMF3+66 Kamloops, British Columbia",
+                "global_code": "942XMMF3+66"
+            },
+            "rating": 5,
+            "reference": "ChIJqeZ0ne0tflMRa3G01jUtRKo",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "formatted_address": "601 Lansdowne St, Kamloops, BC V2C 1Y6, Canada",
+            "geometry": {
+                "location": {
+                    "lat": 50.6764801,
+                    "lng": -120.3268764
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 50.67791952989273,
+                        "lng": -120.3255267201073
+                    },
+                    "southwest": {
+                        "lat": 50.67521987010728,
+                        "lng": -120.3282263798927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "name": "I.T. ISIN Solutions",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 2848,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/106497382144731550836\">A Google User</a>"
+                    ],
+                    "photo_reference": "ATtYBwJw7lqcVIzrXucViywz0VRsToK_fjuz7cOwmUuAb-cA3NsTdoyKUA1XhANJ6EGvAGnwWhEKVPv4bltA67vgvJr8zfPU32n2g9BzEhlX7sQrB1k4NijaB3FoYw0M6CiLeZ5M8FxtF3Alyk5ap3V2DIolwyRaWuV8SzGHh6G4Toq8IKPI",
+                    "width": 4288
+                }
+            ],
+            "place_id": "ChIJFSvwPlMsflMRP81ALxbrdfs",
+            "plus_code": {
+                "compound_code": "MMGF+H6 Kamloops, British Columbia",
+                "global_code": "942XMMGF+H6"
+            },
+            "rating": 5,
+            "reference": "ChIJFSvwPlMsflMRP81ALxbrdfs",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 6
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "formatted_address": "2090 10 Ave SW #110, Salmon Arm, BC V1E 0E1, Canada",
+            "geometry": {
+                "location": {
+                    "lat": 50.6915629,
+                    "lng": -119.3094313
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 50.69309927989272,
+                        "lng": -119.3079296201073
+                    },
+                    "southwest": {
+                        "lat": 50.69039962010728,
+                        "lng": -119.3106292798927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "name": "ThinkMonkey - Your Friendly Computer, Smartphone, Tablet Repair Company",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/104612107392629160215\">ThinkMonkey</a>"
+                    ],
+                    "photo_reference": "ATtYBwISbnvtMzJra2Zk3ssVAjWibQOMJam1Ty-aHohJeXZqoJJKgd_IhzXzdWnTOWqh_UQfPWO_kt0sfNtbsC1Tgum-DYgUFdXmG-jOyZolzo2AayR_Sl00j1Ig_-IDfUyWJ_ZRSG1kDmQJg21MuVmxIs4GWkQeCZQOlX3HOHT7LiXHap-x",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJ3T0LvaZjcVMRNg7vP83_5-8",
+            "plus_code": {
+                "compound_code": "MMRR+J6 Salmon Arm, British Columbia",
+                "global_code": "9522MMRR+J6"
+            },
+            "rating": 4.9,
+            "reference": "ChIJ3T0LvaZjcVMRNg7vP83_5-8",
+            "types": [
+                "electronics_store",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 116
+        }
+    ],
+    "status": "OK"
+}

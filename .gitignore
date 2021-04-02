@@ -80,3 +80,6 @@ __pycache__/
 # Node Modules
 node_modules/
 
+# API Key
+Credentials/
+

@@ -1,0 +1,865 @@
+{
+    "html_attributions": [],
+    "next_page_token": "ATtYBwIiqJwJMbeyRr-pRJk2uJsj0nKo1y761BlxvTh8utxO0ui_UgjdDEzF5ize4hWeWTRbRVRukUtHGVrm-pgzIEpZf747Cy0l9bW2SshjCQs03vX4QyEesW7rMrSagPp5wXndlQ08sBYH5oTVbb_ov9f1hpjfXGBl3-NubfBp-gviQdkYngLJHYm887lbk6kE06S-3h_LveNkViXIs7jI06UFnZVwFwWbnn5g7RWi_p9I6cwpwZtKx-XWtq1v_wHcl4VfEbmLjBjDaaBjVQ-MSLfnh5CqjHix7uQ_ijba031W_dNJoxPzubJDDdUToPixReCnjaf0UXQVZF8UgkQj19Dn2mMl30ln-ibs2qxpf5b3V8pJgQMLELnoeRv1tTILIxhQL7XGbu0_TuwwJZlUnakLby9D0WVNbBPIMKhpj4ND_35cT0A3f8J2TueHE7fCJShRSXptEYO5SnAHfA",
+    "results": [
+        {
+            "business_status": "OPERATIONAL",
+            "formatted_address": "1980 Cooper Rd #102, Kelowna, BC V1Y 8K5, Canada",
+            "geometry": {
+                "location": {
+                    "lat": 49.8779687,
+                    "lng": -119.4438471
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 49.87928572989272,
+                        "lng": -119.4426830701073
+                    },
+                    "southwest": {
+                        "lat": 49.87658607010727,
+                        "lng": -119.4453827298928
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+            "name": "National Computer Resource - Computer Retail & Repair Shop",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 2448,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/107629479665417256955\">National Computer Resource</a>"
+                    ],
+                    "photo_reference": "ATtYBwLTQBPEXjmPzicz_grIt8JvNRB0XqpMXLRZUdEJ3kN2U4njcocfcXremp6a3IkSk747kW8gP3BvnzL5Ya8SdEaGtEiUaoHh8SGwjyvs718MGZvcj25CyyF2htLsCtIf4R5CRh_Yc8aGwBLQ__hiI8GS7lTtITOnMvz5ajFuUdbe73zD",
+                    "width": 3264
+                }
+            ],
+            "place_id": "ChIJb7dxI7iMfVMRbTn44JwsJbU",
+            "plus_code": {
+                "compound_code": "VHH4+5F Kelowna, British Columbia",
+                "global_code": "85X2VHH4+5F"
+            },
+            "rating": 4.7,
+            "reference": "ChIJb7dxI7iMfVMRbTn44JwsJbU",
+            "types": [
+                "electronics_store",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 110
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "formatted_address": "215B Hollywood Rd S, Kelowna, BC V1X 3S8, Canada",
+            "geometry": {
+                "location": {
+                    "lat": 49.8875024,
+                    "lng": -119.3991792
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 49.88884297989271,
+                        "lng": -119.3980162201073
+                    },
+                    "southwest": {
+                        "lat": 49.88614332010727,
+                        "lng": -119.4007158798927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "name": "Nerds on Site",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJcZjDWd-NfVMRvqO7G-s4OSc",
+            "plus_code": {
+                "compound_code": "VJQ2+28 Kelowna, British Columbia",
+                "global_code": "85X2VJQ2+28"
+            },
+            "rating": 5,
+            "reference": "ChIJcZjDWd-NfVMRvqO7G-s4OSc",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 2
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "formatted_address": "270 Petch Rd, Kelowna, BC V1X 3S4, Canada",
+            "geometry": {
+                "location": {
+                    "lat": 49.8870833,
+                    "lng": -119.3984612
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 49.88842937989272,
+                        "lng": -119.3969844201073
+                    },
+                    "southwest": {
+                        "lat": 49.88572972010728,
+                        "lng": -119.3996840798927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "name": "Poweron Computer & Network",
+            "place_id": "ChIJ1_K_iySNfVMRiQqEix2jgYA",
+            "plus_code": {
+                "compound_code": "VJP2+RJ Kelowna, British Columbia",
+                "global_code": "85X2VJP2+RJ"
+            },
+            "rating": 0,
+            "reference": "ChIJ1_K_iySNfVMRiQqEix2jgYA",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "formatted_address": "1865 Dilworth Dr, Kelowna, BC V1Y 9T1, Canada",
+            "geometry": {
+                "location": {
+                    "lat": 49.8802322,
+                    "lng": -119.4366328
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 49.88157232989272,
+                        "lng": -119.4356264201073
+                    },
+                    "southwest": {
+                        "lat": 49.87887267010728,
+                        "lng": -119.4383260798927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "name": "Techs To Go Computer Repair",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJaTUDnMiMfVMR2HyGykRWUuY",
+            "plus_code": {
+                "compound_code": "VHJ7+38 Kelowna, British Columbia",
+                "global_code": "85X2VHJ7+38"
+            },
+            "rating": 4.8,
+            "reference": "ChIJaTUDnMiMfVMR2HyGykRWUuY",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 4
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "formatted_address": "1960 Springfield Rd #107, Kelowna, BC V1Y 5V7, Canada",
+            "geometry": {
+                "location": {
+                    "lat": 49.8775543,
+                    "lng": -119.452017
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 49.87873672989272,
+                        "lng": -119.4506184701073
+                    },
+                    "southwest": {
+                        "lat": 49.87603707010727,
+                        "lng": -119.4533181298928
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "name": "Fix It Electronics LTD",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 1151,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/106515425032260564017\">Fix It Electronics LTD</a>"
+                    ],
+                    "photo_reference": "ATtYBwJ6N7UZR_2_00lqsejTo3k8hMuPru68TtNPmE3zLM4VE69TWngRmyS_z2UnsJ3wloEAxR0B6-QzwBtzWjuzLLK0SJRbG6VI_0V5nTBXpe6NUBmHaWwFs4ppyWjEmLT3632AZ6C6T1lk0iG1pamzTsxdyQVXKBIoz0_3I7vNkfg1lnXl",
+                    "width": 2013
+                }
+            ],
+            "place_id": "ChIJLxm4Qaj0fVMRppd90Pb_IeE",
+            "plus_code": {
+                "compound_code": "VGHX+25 Kelowna, British Columbia",
+                "global_code": "85X2VGHX+25"
+            },
+            "rating": 4.4,
+            "reference": "ChIJLxm4Qaj0fVMRppd90Pb_IeE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 60
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "formatted_address": "1447 Ellis St #102, Kelowna, BC V1Y 2A3, Canada",
+            "geometry": {
+                "location": {
+                    "lat": 49.88775,
+                    "lng": -119.4931898
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 49.88908182989272,
+                        "lng": -119.4919994701073
+                    },
+                    "southwest": {
+                        "lat": 49.88638217010728,
+                        "lng": -119.4946991298927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "name": "Next Generation Computers",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 289,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/112401456187624539628\">Next Generation Computers</a>"
+                    ],
+                    "photo_reference": "ATtYBwL75rDipA9c-UNoJweWuzkIOEHeqKG0UO31ry4Swp0utRiVbi3ceHrmyDxJG-A_aGQ3n8VmhZHbAraF6qd2_-KHxtuVlWe7qqn8uAB0mwjzlmuMsEP2LV1nwV7qJAfWr5EJuiIoi5sYtLf9meUQxdsXVv4YGSLuqa9wuKHFhj_jpDBq",
+                    "width": 481
+                }
+            ],
+            "place_id": "ChIJdWFZw6f0fVMRpCLKN1CHvWw",
+            "plus_code": {
+                "compound_code": "VGQ4+3P Kelowna, British Columbia",
+                "global_code": "85X2VGQ4+3P"
+            },
+            "rating": 4.8,
+            "reference": "ChIJdWFZw6f0fVMRpCLKN1CHvWw",
+            "types": [
+                "electronics_store",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 62
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "formatted_address": "1470 Harvey Ave #10, Kelowna, BC V1Y 9K8, Canada",
+            "geometry": {
+                "location": {
+                    "lat": 49.8826365,
+                    "lng": -119.4669257
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 49.88381442989273,
+                        "lng": -119.4658317201072
+                    },
+                    "southwest": {
+                        "lat": 49.88111477010728,
+                        "lng": -119.4685313798927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "name": "uBreakiFix",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 480,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/112497621384636285432\">uBreakiFix</a>"
+                    ],
+                    "photo_reference": "ATtYBwIcxnbQufttQx0lGpp2e83rWcPzgZ7HksCuaz_WKpBYufIVdZme80LqzwoGpgW9DZICNZTcz9Jv359mR8rD3qY98p967QP3m6qWEkz0quj92T0hYU4ry97BAAptBRzrqc3ZnX_vRPCWUa_VKfqnTl03JlNuxch4mf2IVh8CtCMF02X2",
+                    "width": 482
+                }
+            ],
+            "place_id": "ChIJyaWERa2MfVMRYXHV2emrhrA",
+            "plus_code": {
+                "compound_code": "VGMM+36 Kelowna, British Columbia",
+                "global_code": "85X2VGMM+36"
+            },
+            "rating": 4.6,
+            "reference": "ChIJyaWERa2MfVMRYXHV2emrhrA",
+            "types": [
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 278
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "formatted_address": "1455 Ellis St, Kelowna, BC V1Y 2A3, Canada",
+            "geometry": {
+                "location": {
+                    "lat": 49.8874716,
+                    "lng": -119.4933596
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 49.88882157989272,
+                        "lng": -119.4920848701073
+                    },
+                    "southwest": {
+                        "lat": 49.88612192010728,
+                        "lng": -119.4947845298928
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "name": "Distinctive Computer Service",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJIRXnuSH1fVMREEQM0vfPOq0",
+            "plus_code": {
+                "compound_code": "VGP4+XM Kelowna, British Columbia",
+                "global_code": "85X2VGP4+XM"
+            },
+            "rating": 0,
+            "reference": "ChIJIRXnuSH1fVMREEQM0vfPOq0",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "formatted_address": "2070 Harvey Ave #7, Kelowna, BC V1Y 8P8, Canada",
+            "geometry": {
+                "location": {
+                    "lat": 49.8828142,
+                    "lng": -119.445292
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 49.88408522989272,
+                        "lng": -119.4439270701073
+                    },
+                    "southwest": {
+                        "lat": 49.88138557010728,
+                        "lng": -119.4466267298927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "name": "CSR Computer Services & Repair",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 468,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/100335928011425522705\">A Google User</a>"
+                    ],
+                    "photo_reference": "ATtYBwLvIcC9HVCkNfZVTKLrzsp6VdiUPpKjVXuCULThI-DTrmTOlYZdjCIoU9MLFHC0AiI_zc4bcO5PWQ_oGAtRIlEpFlVgTEsLCMdGJM2a4FbJIB0PuCplk-vI0uz7z5Spb1U2w4am4PysgWZQC92K5rtJE8yWSv_vGaYG_zyN3ZvSRNCG",
+                    "width": 960
+                }
+            ],
+            "place_id": "ChIJd997kdCMfVMRgercQ-9durc",
+            "plus_code": {
+                "compound_code": "VHM3+4V Kelowna, British Columbia",
+                "global_code": "85X2VHM3+4V"
+            },
+            "rating": 3.8,
+            "reference": "ChIJd997kdCMfVMRgercQ-9durc",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 94
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "formatted_address": "1220 Ortt Rd, Kelowna, BC V1X 4Y6, Canada",
+            "geometry": {
+                "location": {
+                    "lat": 49.9039818,
+                    "lng": -119.3858475
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 49.90533172989272,
+                        "lng": -119.3843147701073
+                    },
+                    "southwest": {
+                        "lat": 49.90263207010728,
+                        "lng": -119.3870144298928
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "name": "Harmony Computer Services",
+            "place_id": "ChIJBbRNQxKLfVMRaIsNfK7ZX9Q",
+            "plus_code": {
+                "compound_code": "WJ37+HM Kelowna, British Columbia",
+                "global_code": "85X2WJ37+HM"
+            },
+            "rating": 5,
+            "reference": "ChIJBbRNQxKLfVMRaIsNfK7ZX9Q",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "formatted_address": "250 Dougall Rd N, Kelowna, BC V1X 3K5, Canada",
+            "geometry": {
+                "location": {
+                    "lat": 49.8910079,
+                    "lng": -119.3932529
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 49.89235667989272,
+                        "lng": -119.3916764701072
+                    },
+                    "southwest": {
+                        "lat": 49.88965702010727,
+                        "lng": -119.3943761298927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "name": "A & L Computer Consultants",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 820,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/100031588275466127610\">A &amp; L Computer Consultants</a>"
+                    ],
+                    "photo_reference": "ATtYBwK4YQDbKIagUXlLBK62QuMKg34CC6SbbyrDcUo2vsxPvf6rX3ou4EAGg_yHqYOh5LaL04lFzn3iIUdhv3R5mzjHPJcMTW9zLeK1m8PLvdZITW44S3rePOW7ZtkSFhiyd0-rNpm3kiqPJREePACF1d58bgfnyQUnnS0vOmsWW9onChY",
+                    "width": 1029
+                }
+            ],
+            "place_id": "ChIJu8fhQjqNfVMRp5lHbXcxaKE",
+            "plus_code": {
+                "compound_code": "VJR4+CM Kelowna, British Columbia",
+                "global_code": "85X2VJR4+CM"
+            },
+            "rating": 0,
+            "reference": "ChIJu8fhQjqNfVMRp5lHbXcxaKE",
+            "types": [
+                "electronics_store",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 0
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "formatted_address": "1889 Spall Rd #205, Kelowna, BC V1Y 4R2, Canada",
+            "geometry": {
+                "location": {
+                    "lat": 49.87905259999999,
+                    "lng": -119.4539062
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 49.88046997989272,
+                        "lng": -119.4528822201073
+                    },
+                    "southwest": {
+                        "lat": 49.87777032010727,
+                        "lng": -119.4555818798927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "name": "Fix My Touch - Laptops/Desktops, Tablets & Cell Repairs",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 615,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/106592871546622460903\">Fix My Touch</a>"
+                    ],
+                    "photo_reference": "ATtYBwIt9BY-3GEBs03zmcObzIdrRH2p7_i-4K3HOgpjBu6PBi_MG7jlo5J5gYgbsYIciAOuvun00SbvQ1IAzPuTU38oNsseDqaHfMd78CXGV7O-5bwOerAdRUW9UtQY9BTUERJlMj4XqatC4ZNdXl_nVEy7Uh-hU8AaaHgDv7ibq6lqgLuO",
+                    "width": 1093
+                }
+            ],
+            "place_id": "ChIJxYVGarGMfVMR5bsKsKEkNpo",
+            "plus_code": {
+                "compound_code": "VGHW+JC Kelowna, British Columbia",
+                "global_code": "85X2VGHW+JC"
+            },
+            "rating": 4.7,
+            "reference": "ChIJxYVGarGMfVMR5bsKsKEkNpo",
+            "types": [
+                "electronics_store",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 283
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "formatted_address": "404-1980 Pandosy St, Kelowna, BC V1Y 1S1, Canada",
+            "geometry": {
+                "location": {
+                    "lat": 49.8783491,
+                    "lng": -119.4922419
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 49.87975517989273,
+                        "lng": -119.4907910701073
+                    },
+                    "southwest": {
+                        "lat": 49.87705552010728,
+                        "lng": -119.4934907298928
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "name": "Kelowna PC Repair",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJHZ_w7az0fVMRVQBYr8CdrbQ",
+            "plus_code": {
+                "compound_code": "VGH5+84 Kelowna, British Columbia",
+                "global_code": "85X2VGH5+84"
+            },
+            "rating": 2.8,
+            "reference": "ChIJHZ_w7az0fVMRVQBYr8CdrbQ",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 16
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "formatted_address": "2271 Harvey Ave Unit 1403, Kelowna, BC V1Y 6H2, Canada",
+            "geometry": {
+                "location": {
+                    "lat": 49.8791744,
+                    "lng": -119.4385636
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 49.88054552989272,
+                        "lng": -119.4369794201073
+                    },
+                    "southwest": {
+                        "lat": 49.87784587010727,
+                        "lng": -119.4396790798927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "name": "Geek Squad",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 251,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/111922110726031177769\">A Google User</a>"
+                    ],
+                    "photo_reference": "ATtYBwJp6GYas374xRk-MHEneplr-bWqnDaVSnU9mLk0CvOzKBbS6NJtDJ0blAbH4UbKBYSuPI7SRtwG7TEWFBDYsX9TQxZWXvc7HEiWMNjC5j1FGYyqfqzz1KdnnpjmD2qYRrC9iSzgLpRvn3bt667yDLx71L1KSL4CNlRazFFuPySXWks",
+                    "width": 251
+                }
+            ],
+            "place_id": "ChIJFTQvqkqNfVMRCiarKfexKrk",
+            "plus_code": {
+                "compound_code": "VHH6+MH Kelowna, British Columbia",
+                "global_code": "85X2VHH6+MH"
+            },
+            "rating": 1.8,
+            "reference": "ChIJFTQvqkqNfVMRCiarKfexKrk",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 15
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "formatted_address": "1062 Leon Ave, Kelowna, BC V1Y 6J9, Canada",
+            "geometry": {
+                "location": {
+                    "lat": 49.8846283,
+                    "lng": -119.4783137
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 49.88589602989273,
+                        "lng": -119.4769662201073
+                    },
+                    "southwest": {
+                        "lat": 49.88319637010728,
+                        "lng": -119.4796658798927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "name": "Price Is Right Computers",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJayGrdFTzfVMRRAnAlGkqB0w",
+            "plus_code": {
+                "compound_code": "VGMC+VM Kelowna, British Columbia",
+                "global_code": "85X2VGMC+VM"
+            },
+            "rating": 4.5,
+            "reference": "ChIJayGrdFTzfVMRRAnAlGkqB0w",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 15
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "formatted_address": "1974 Moss Ct, Kelowna, BC V1Y 9L3, Canada",
+            "geometry": {
+                "location": {
+                    "lat": 49.87808450000001,
+                    "lng": -119.4515941
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 49.87948002989273,
+                        "lng": -119.4500928201073
+                    },
+                    "southwest": {
+                        "lat": 49.87678037010728,
+                        "lng": -119.4527924798928
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+            "name": "Rutherford Bazett Computing Inc",
+            "place_id": "ChIJ8yobzLCMfVMR3Q4UaVg7Vs4",
+            "plus_code": {
+                "compound_code": "VGHX+69 Kelowna, British Columbia",
+                "global_code": "85X2VGHX+69"
+            },
+            "rating": 0,
+            "reference": "ChIJ8yobzLCMfVMR3Q4UaVg7Vs4",
+            "types": [
+                "electronics_store",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 0
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "formatted_address": "115-2714 Hwy 97 N, Kelowna, BC V1X 4J7, Canada",
+            "geometry": {
+                "location": {
+                    "lat": 49.89644029999999,
+                    "lng": -119.4142331
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 49.89782292989273,
+                        "lng": -119.4126562701073
+                    },
+                    "southwest": {
+                        "lat": 49.89512327010728,
+                        "lng": -119.4153559298928
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+            "name": "Island Key Computer Ltd",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJ-5scmSyNfVMR4BWuJpFsZ68",
+            "plus_code": {
+                "compound_code": "VHWP+H8 Kelowna, British Columbia",
+                "global_code": "85X2VHWP+H8"
+            },
+            "rating": 0,
+            "reference": "ChIJ-5scmSyNfVMR4BWuJpFsZ68",
+            "types": [
+                "electronics_store",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 0
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "formatted_address": "1546 Pandosy St, Kelowna, BC V1Y 1P4, Canada",
+            "geometry": {
+                "location": {
+                    "lat": 49.8859036,
+                    "lng": -119.4952559
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 49.88725342989272,
+                        "lng": -119.4938048201072
+                    },
+                    "southwest": {
+                        "lat": 49.88455377010727,
+                        "lng": -119.4965044798927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+            "name": "Simply Computing (Kelowna)",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 755,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/109439714008676197336\">Simply Computing</a>"
+                    ],
+                    "photo_reference": "ATtYBwIDMKxeYsjvgosgJmZnNxaHZ4exRFAk4K4taYEMljKB3Ebk23MKYATMRWIeJyyCpemkAJr3eyTF5asR4n_SHSmpaeL38lvpyxE9D-7urFy4YQ4wTrA5c1BTlovFFbAMoGvMpvE5XtZj24E7m9sWCJpj29EhrVIUbDwSeLbcwGIPl1tS",
+                    "width": 1007
+                }
+            ],
+            "place_id": "ChIJzXZZgceMfVMRpDKAcXUy3Sg",
+            "plus_code": {
+                "compound_code": "VGP3+9V Kelowna, British Columbia",
+                "global_code": "85X2VGP3+9V"
+            },
+            "rating": 3.7,
+            "reference": "ChIJzXZZgceMfVMRpDKAcXUy3Sg",
+            "types": [
+                "electronics_store",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 177
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "formatted_address": "2271 Harvey Ave Unit 910, Kelowna, BC V1Y 6H2, Canada",
+            "geometry": {
+                "location": {
+                    "lat": 49.881805,
+                    "lng": -119.437867
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 49.88318657989272,
+                        "lng": -119.4365173201073
+                    },
+                    "southwest": {
+                        "lat": 49.88048692010728,
+                        "lng": -119.4392169798927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+            "name": "The Source",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/100176778797464655784\">Rob Ewanuk</a>"
+                    ],
+                    "photo_reference": "ATtYBwLtxXDUjLUJoYFsiMnFCRfIQlCUVr10SutDSdKq6qGGn3DuT_vCHGBbWShf-xaCuILZQt3VInUv5_CYrVNmN8npLhF-ZfJtHektuW9F-juIBeddW_G_3TptJrqLWzxMsMZ9C5rMTdeKx71ifuMF6gi7hLQNzr6R9fnTlg3NE0hfNK3Y",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJCS3ywciMfVMRW7J-fT1LXzo",
+            "plus_code": {
+                "compound_code": "VHJ6+PV Kelowna, British Columbia",
+                "global_code": "85X2VHJ6+PV"
+            },
+            "rating": 4.1,
+            "reference": "ChIJCS3ywciMfVMRW7J-fT1LXzo",
+            "types": [
+                "electronics_store",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 98
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "formatted_address": "737 Leon Ave, Kelowna, BC V1Y 8L6, Canada",
+            "geometry": {
+                "location": {
+                    "lat": 49.8841415,
+                    "lng": -119.4877249
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 49.88566877989273,
+                        "lng": -119.4863734201073
+                    },
+                    "southwest": {
+                        "lat": 49.88296912010728,
+                        "lng": -119.4890730798927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "name": "HUBER COMPUTER REPAIR",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 1960,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/117258855021779527632\">A Google User</a>"
+                    ],
+                    "photo_reference": "ATtYBwL3Dp8wtjru2vrtgu7LObwk49-Ak3mRNRPRU-3w8IaUibn8k39K-rcbJT6pOrYDeHpqhgWETQf73nE1udhnAq3ouHRHVe1zaPt86pcTrl9YZodPj8E--MhXeDNg-7f1XdIubW-DtEfiNvuIs3gO0LKaGHTV8my7m5koF3EwD4I_1sNG",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJy9pnl3r1fVMRwekQlCo7XA4",
+            "plus_code": {
+                "compound_code": "VGM6+MW Kelowna, British Columbia",
+                "global_code": "85X2VGM6+MW"
+            },
+            "rating": 4.9,
+            "reference": "ChIJy9pnl3r1fVMRwekQlCo7XA4",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 10
+        }
+    ],
+    "status": "OK"
+}

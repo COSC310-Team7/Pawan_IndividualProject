@@ -44,7 +44,7 @@
 
         {"tag": "didnt_work",
          "patterns": ["It did not work", "The solution did not work", "The computer still is not working", "I am uncomfortable doing this part"],
-         "responses": ["You can bring your computer to the shop so we can better assist you?"]
+         "responses": ["Please bring your computer to the shop so we can better assist you."]
         },
         {"tag": "worked",
          "patterns": ["It worked", "It is working now", "The solution worked", "The computer is working"],
@@ -78,7 +78,7 @@
         },
         {"tag": "2c_looks_weird",
          "patterns": ["The screen looks weird", "The screen is displaying the wrong resolution", "Everything is big and looks bad on the screen"],
-         "responses": ["First check that the monitor is plugged into the gpu and not the motherboard. Tell me if plugging into the gpu didn't worked"]
+         "responses": ["First check that the monitor is plugged into the gpu and not the motherboard. Tell me if plugging into the gpu didn't work"]
         },
         {"tag": "2c_where_gpu",
          "patterns": ["Where is the gpu", "Where do I plug into the gpu"],

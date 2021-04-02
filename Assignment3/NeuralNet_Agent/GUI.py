@@ -1,6 +1,6 @@
 # Import tkinter and agent.py
 from tkinter import *
-from Projects.Assignment3.NeuralNet_Agent.agent import *
+from Pawan_IndividualProject.Assignment3.NeuralNet_Agent.agent import *
 
 # botname specified
 bot_name = "Steven"
@@ -19,6 +19,32 @@ class ChatApplication:
         self.window = Tk()
         self._setup_main_window()
         self.agent = Agent()
+        self.case = 0
+        self.noMoreOptions = ["Try testing your display with a different device. "
+                              "Otherwise please bring your computer into the shop so we can better assist you.",
+                              "Please bring your computer to the shop so we can better assist you.",
+                              "Try to unplug it and replug it back in, if it still doesn't work then bring it to "
+                              "our shop",
+                              "We can look at your monitor at the shop and try to fix it",
+                              "Try testing your display with a different device. "
+                              "Otherwise please bring your computer into the shop so we can better assist you.",
+                              "Make sure none of the wires are getting in the fans. "
+                              "Clean the fans and the vents inside the case and that should fix your problem. "
+                              "If the problem persists then you can bring your computer to our shop.",
+                              "You can try running a security scan or clearing space on your hard drives. "
+                              "Otherwise you can buy faster storage at our shop",
+                              "If you bring it to the shop we may be able to fix it otherwise we can sell you a "
+                              "mouse",
+                              "For now you will not be able to use that usb slot. "
+                              "If you bring your computer to the shop we can fix it.",
+                              "Try checking what temperature your processor operates at. "
+                              "Otherwise bring your computer to the shop and we'd be happy to take a look at it.",
+                              "Try checking to see what processes are idly running in the background. "
+                              "Try to close them. Otherwise bring your computer to the shop and we'd be happy to "
+                              "take a "
+                              "look at it.", "Try uninstalling the applications are reinstalling them. "
+                                             "Otherwise bring your computer to the shop and we'd be happy to take "
+                                             "a look at it."]
 
     def run(self):
         self.window.mainloop()
@@ -72,6 +98,34 @@ class ChatApplication:
     def _on_enter_pressed(self, event):
         msg = self.msg_entry.get()
         self._insert_message(msg, "You")
+        # print(self.case)
+
+        if self.case == 0:
+            self._bot_response(msg)
+
+        elif self.case == 1:
+            self._need_help(msg)
+
+        elif self.case == 2:
+            api = googleApi()
+            api.shopSearch(msg)
+            botResponse = "Hear are some shops in your area:\n\n"
+            path = settings.joinpath(settings.NEURAL_NET_AGENT_PATH, "placesSearch.json")
+            with open(path) as jsonFile:
+                searchedLocations = json.load(jsonFile)
+            for shop in searchedLocations['results']:
+                name = shop["name"]
+                address = shop["formatted_address"]
+                rating = shop["rating"]
+                if rating == 5:
+                    botResponse = botResponse + "---- " + str(name) + " ----\n"
+                    botResponse = botResponse + "Address: " + str(address) + "\n"
+                    botResponse = botResponse + "Rating: " + str(rating) + "\n"
+
+            self._insert_message(botResponse, bot_name)
+            botResponse = "Is there anything else I can assist you with?"
+            self._insert_message(botResponse, bot_name)
+            self.case = 0
 
     def _insert_message(self, msg, sender):
         if not msg:
@@ -82,14 +136,29 @@ class ChatApplication:
         self.text_widget.configure(state=NORMAL)
         self.text_widget.insert(END, msg1)
         self.text_widget.configure(state=DISABLED)
-
-        intentions = self.agent.predictResponse(msg)
-        msg2 = f"{bot_name}: {self.agent.getResponse(intentions)}\n\n"
-        self.text_widget.configure(state=NORMAL)
-        self.text_widget.insert(END, msg2)
-        self.text_widget.configure(state=DISABLED)
-
         self.text_widget.see(END)
+
+    def _bot_response(self, userInput):
+        intentions = self.agent.predictResponse(userInput)
+        botResponse = self.agent.getResponse(intentions)
+
+        if botResponse in self.noMoreOptions:
+            botResponse = botResponse + " Would you like me to find computer shops near you? (Y/N)"
+            self._insert_message(botResponse, bot_name)
+            self.case = 1
+        else:
+            self._insert_message(botResponse, bot_name)
+
+    def _need_help(self, userInput):
+        if userInput.lower() in ["y", "yes"]:
+            botResponse = "Please format your address in the following form: 1234 SomeStreet St SomeCity SomeProvince " \
+                          "F6F 6F6"
+            self._insert_message(botResponse, bot_name)
+            self.case = 2
+        else:
+            botResponse = "Is there anything else I can help you with?"
+            self._insert_message(botResponse, bot_name)
+            self.case = 0
 
 
 if __name__ == "__main__":

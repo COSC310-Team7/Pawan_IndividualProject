@@ -42,6 +42,7 @@ The Agent class is located in the agent.py file. The Agent class has the followi
   * ```bagWords(): uses the deconstructed sentence to a series of words and maps it to a matching tag.```
   * ```predictResponse(): uses the chatbot model to return a response, with an associated probability.```
   * ```getResponse(): returns random bot response that has a greater probability than the minimum threshold.```
+  * ```findShop(): check if the bot's response has exhausted all possible solutions and offer to locate a repair shop in the area```
   * ```run(): runs the chatbot.```
 ## Model Class
 The Model class is located in the train.py file. The Agent class has the following structure:
@@ -57,16 +58,26 @@ The Model class is located in the train.py file. The Agent class has the followi
 ### Note: Make sure you are using a version of python 3.8, python 3.9 has compatibility issues.
 
 ## ChatApplication Class (GUI)
-The ChatApplication class is located in the app.py file. This class has the following strucure:
+The ChatApplication class is located in the app.py file. This class has the following structure:
 * Attributes:
   * ```window (object): A window object that holds the user interface.```
   * ```agent (object): An object that references the agent class as an object.```
 * Methods:
   * ```run(): runs the chatbot in the GUI window mainloop.```
   * ```_setup_main_window(): A function of the window object that provides a title, window size and other features.```
-  * ```_on_enter_pressed(): calls _insert_message function whenever user presses the enter button after typing a message.```
-  * ```_insert_message(): takes a message and a sender as a parameter and inputs both message and response into the main message box. Note: calls on methods within agent.py as well.```
+  * ```_on_enter_pressed(): calls _insert_message function whenever user presses the enter button after typing a message. Additionally this method now checks if the user has consented to find the nearest computer repair shop, if so it will find shops near the address specified by the user (if the shop has a user rating equal to 5)```
+  * ```_insert_message(): takes a message and a sender as a parameter and inputs messages into the main message box. Note: calls on methods within agent.py as well.```
+  * ```_bot_response(): takes a user's input and uses the agent.py method predictResponse() and getResponse() methods to retrieve the chatbot's response.```
+  * ```_need_help(): takes in userInput to check if the user consented to lookup computer repair shops in the area otherwise return to check if the user requires any more assistance```
 
+## googleAPI Class
+The google API class is located in the API.py file. This class makes use of the Places and Geocode APIs. This class has the following structure:
+* Attributes:
+  * ```credentials (object): Contains the necessary API key to enable usage of the two APIs```
+* Methods:
+  * ```placesSearch(): takes in a google maps client, searchterm and keyword argument and passes the search term and client to the Places API and returns and saves a JSON of bussinesses or locations that are near the area and matched the search terms.```
+  * ```addressLookup(): takes in a string address of the form: 1234 SomeStreet St SomeCity SomeProvince F6F 6F6 and passes it to the Geocode API that returns the longitude and latitude of that address.```
+  * ```shopSearch(): takes in a street address and the search term 'computer repair' and searches for shops that match that description near the specified location. It makes use of both placesSearch() and addressLookup()```
 
 ## Compile training data for the chatbot
 * Compile train.py (Only have to do this once, unless changes are made to the intents.json)
@@ -129,3 +140,7 @@ Spell checking was implemented through the Autocorrect package. The implementati
 ![Autocorrect](images/SpellCheck_part1.PNG)
 
 ![Autocorrect](images/SpellCheck_part2.PNG)
+
+### Geocode and Places API
+The Geocode API takes a user specified address and determines the longitude and latitude coordinates of the address. Then the Places API can find locations that match the search results and are near the coordinates provided by the Goecoding API and this information is saved to a JSON and filtered by rating.
+![Autocorrect](images/GoogleAPIs.PNG)
