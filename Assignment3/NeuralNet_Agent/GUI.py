@@ -109,7 +109,7 @@ class ChatApplication:
         elif self.case == 2:
             api = googleApi()
             api.shopSearch(msg)
-            botResponse = "Hear are some shops in your area:\n\n"
+            botResponse = "Here are some shops in your area:\n\n"
             path = settings.joinpath(settings.NEURAL_NET_AGENT_PATH, "placesSearch.json")
             with open(path) as jsonFile:
                 searchedLocations = json.load(jsonFile)
@@ -130,7 +130,7 @@ class ChatApplication:
     def _insert_message(self, msg, sender):
         if not msg:
             return  # if there is no text entered
-        msg = self.agent.spellCheck(msg)
+        # msg = self.agent.spellCheck(msg)
         self.msg_entry.delete(0, END)
         msg1 = f"{sender}: {msg}\n\n"
         self.text_widget.configure(state=NORMAL)
