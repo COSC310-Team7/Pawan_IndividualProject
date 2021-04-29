@@ -47,7 +47,7 @@ class googleApi:
 
 def main():
     gsearch = googleApi()
-    streetAddress = "2020 Tantalus Court Kamloops BC V1X 8C1"
+    streetAddress = ""
     gsearch.shopSearch(streetAddress)
 
 
