@@ -59,7 +59,7 @@ The Model class is located in the train.py file. The Agent class has the followi
 ### Note: Make sure you are using a version of python 3.8, python 3.9 has compatibility issues.
 
 ## ChatApplication Class (GUI)
-The ChatApplication class is located in the app.py file. This class has the following structure:
+The ChatApplication class is located in the GUI.py file. **Note:** this python class utilizes the `tkinter` python package. This class has the following structure:
 * Attributes:
   * ```window (object): A window object that holds the user interface.```
   * ```agent (object): An object that references the agent class as an object.```
